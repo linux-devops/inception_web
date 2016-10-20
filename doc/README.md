@@ -10,7 +10,9 @@ pwd:mysqlcheck_dev
 
 
 # 环境说明
-Django==1.8.7
+Django==1.8.7    
+> 注意: 只有Django8支持, 高版本暂不支持, eg: patterns这个只有该版本能用
+
 djangorestframework==3.1.3
 django-rest-swagger==0.3.4
 MySQL-python==1.2.5

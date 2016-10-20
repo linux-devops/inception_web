@@ -1,4 +1,11 @@
 
+-- ----------------------------
+-- Added by taolr, 注意, 该脚本只用于初始化
+-- ----------------------------
+CREATE DATABASE mysqlcheck;
+USE mysqlcheck;
+
+
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------

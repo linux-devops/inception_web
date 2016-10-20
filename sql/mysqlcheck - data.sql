@@ -75,9 +75,9 @@ INSERT INTO `mysqlcheck`.`superdba_rolelist_permission` (`id`, `rolelist_id`, `p
 INSERT INTO `mysqlcheck`.`superdba_rolelist_permission` (`id`, `rolelist_id`, `permissionlist_id`) VALUES ('39', '3', '2');
 
 
-INSERT INTO `mysqlcheck`.`superdba_user` (`id`, `password`, `last_login`, `username`, `email`, `is_active`, `is_superuser`, `nickname`, `sex`, `role_id`) VALUES ('1', 'pbkdf2_sha256$20000$LMY1WvSKLXA3$i6U36wE3qogZEJzYlNDh5CxxrA98gYQlT5sxkLIVPM4=', '2016-04-22 01:58:34', 'admin', 'admin@123.com', '1', '1', '方', '男', '2');
-INSERT INTO `mysqlcheck`.`superdba_user` (`id`, `password`, `last_login`, `username`, `email`, `is_active`, `is_superuser`, `nickname`, `sex`, `role_id`) VALUES ('2', 'pbkdf2_sha256$20000$cxjb7GDC3YzK$cUe4eSbSISjkKK8+reD6cC3qqT8vVCejErztGKBOMZM=', '2016-01-08 11:10:30', 'yu', 'yu@123.com', '1', '0', 'yyu', '男', '3');
-INSERT INTO `mysqlcheck`.`superdba_user` (`id`, `password`, `last_login`, `username`, `email`, `is_active`, `is_superuser`, `nickname`, `sex`, `role_id`) VALUES ('4', 'pbkdf2_sha256$20000$vkjqrFBsfdVb$VbeV/N6LavUFt/n2TqlxvKj2jhLfJGEwT5zWnfQ/xII=', '2016-01-08 07:58:47', 'yucz', 'yu@123.com', '1', '0', 'yyu', '男', '1');
+INSERT INTO `mysqlcheck`.`superdba_user` (`id`, `password`, `last_login`, `username`, `email`, `is_active`, `is_superuser`, `nickname`, `sex`, `role_id`) VALUES ('1', 'pbkdf2_sha256$20000$LMY1WvSKLXA3$i6U36wE3qogZEJzYlNDh5CxxrA98gYQlT5sxkLIVPM4=', '2016-04-22 01:58:34', 'admin', 'admin@123.com', '1', '1', '方', 'm', '2');
+INSERT INTO `mysqlcheck`.`superdba_user` (`id`, `password`, `last_login`, `username`, `email`, `is_active`, `is_superuser`, `nickname`, `sex`, `role_id`) VALUES ('2', 'pbkdf2_sha256$20000$cxjb7GDC3YzK$cUe4eSbSISjkKK8+reD6cC3qqT8vVCejErztGKBOMZM=', '2016-01-08 11:10:30', 'yu', 'yu@123.com', '1', '0', 'yyu', 'm', '3');
+INSERT INTO `mysqlcheck`.`superdba_user` (`id`, `password`, `last_login`, `username`, `email`, `is_active`, `is_superuser`, `nickname`, `sex`, `role_id`) VALUES ('4', 'pbkdf2_sha256$20000$vkjqrFBsfdVb$VbeV/N6LavUFt/n2TqlxvKj2jhLfJGEwT5zWnfQ/xII=', '2016-01-08 07:58:47', 'yucz', 'yu@123.com', '1', '0', 'yyu', 'm', '1');
 
 
 INSERT INTO `mysqlcheck`.`superdba_usermenu` (`id`, `menus_show`, `menus_checked`, `user_id`) VALUES ('1', '1,2,3,4', '1,2,3,4', '1');
